@@ -5,7 +5,8 @@
   "description": "One-click WhatsApp web status downloader",
   "content_scripts": [
     {
-      "matches": ["https://web.whatsapp.com/"]
+      "matches": ["https://web.whatsapp.com/"],
+      "js": ["content.js"]
     }
   ],
   "background": {
