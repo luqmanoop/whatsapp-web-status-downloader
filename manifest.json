@@ -15,7 +15,8 @@
     }
   ],
   "browser_action": {
-    "default_icon": "icons/icon@16.png"
+    "default_icon": "icons/icon@16.png",
+    "default_title": "Download WhatsApp Status"
   },
   "background": {
     "scripts": ["background.js"]
